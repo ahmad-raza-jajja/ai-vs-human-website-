@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>AI vs Human - CS Girlies Hackathon 2025</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script type="module" crossorigin src="/assets/index-DEgEn0BC.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C51lXcUZ.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="highlight-ai">AI</span> vs <span class="highlight-human">Human</span></h1>
+            <p class="tagline">Exploring the fascinating differences between artificial and human intelligence</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#comparison">Comparison</a></li>
+                <li><a href="#quiz">Quiz Game</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="intro" class="intro">
+            <div class="container">
+                <div class="two-column">
+                    <div class="column">
+                        <h2>What is this project?</h2>
+                        <p>Welcome to "AI vs Human" - an interactive and educational website created for the CS Girlies Hackathon 2025! This project explores the fascinating differences between artificial intelligence and human intelligence across multiple dimensions.</p>
+                        <p>As AI continues to advance and integrate into our daily lives, understanding the unique strengths and limitations of both AI and human intelligence becomes increasingly important.</p>
+                    </div>
+                    <div class="column">
+                        <div class="image-container">
+                            <div class="image-side ai-side">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <div class="vs">VS</div>
+                            <div class="image-side human-side">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison" class="comparison">
+            <div class="container">
+                <h2>Comparing AI & Human Intelligence</h2>
+                <p class="section-intro">Explore how artificial and human intelligence compare across different dimensions:</p>
+
+                <div class="comparison-cards">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <h3>Speed & Computation</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="compare-item ai">
+                                <h4><i class="fas fa-robot"></i> AI</h4>
+                                <p>Can process billions of calculations per second. Excels at data processing, pattern recognition, and solving well-defined problems.</p>
+                            </div>
+                            <div class="compare-item human">
+                                <h4><i class="fas fa-user"></i> Human</h4>
+                                <p>Slower computational speed but unmatched efficiency in energy usage. The human brain uses only ~20 watts of power while performing remarkable feats.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-paint-brush"></i>
+                            <h3>Creativity & Innovation</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="compare-item ai">
+                                <h4><i class="fas fa-robot"></i> AI</h4>
+                                <p>Can generate art, music, and writing by analyzing and recombining existing patterns. Lacks intrinsic understanding of its creations.</p>
+                            </div>
+                            <div class="compare-item human">
+                                <h4><i class="fas fa-user"></i> Human</h4>
+                                <p>Possesses original creativity driven by emotions, experiences, and intentionality. Can create truly novel ideas and concepts.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Learning & Adaptation</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="compare-item ai">
+                                <h4><i class="fas fa-robot"></i> AI</h4>
+                                <p>Learns through vast amounts of data and explicit training. Specialized for specific domains with limited transfer learning abilities.</p>
+                            </div>
+                            <div class="compare-item human">
+                                <h4><i class="fas fa-user"></i> Human</h4>
+                                <p>Can learn from minimal examples and transfer knowledge across domains. Excels at intuitive learning and adaptation to new situations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-heart"></i>
+                            <h3>Emotions & Consciousness</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="compare-item ai">
+                                <h4><i class="fas fa-robot"></i> AI</h4>
+                                <p>Can simulate emotional responses but lacks genuine emotional experiences. No evidence of consciousness or self-awareness.</p>
+                            </div>
+                            <div class="compare-item human">
+                                <h4><i class="fas fa-user"></i> Human</h4>
+                                <p>Experiences rich emotional states that influence decision-making and creativity. Possesses consciousness and self-awareness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="quiz">
+            <div class="container">
+                <h2>AI or Human? Quiz Game</h2>
+                <p class="section-intro">Test your ability to distinguish between AI and human-created content! In the age of advanced generative AI, can you tell the difference?</p>
+
+                <div class="quiz-container">
+                    <div id="quiz-start" class="quiz-panel active">
+                        <h3>How to Play</h3>
+                        <p>You'll be presented with various creations - poems, paintings, music, and more. Your task is to guess whether each was created by an AI or a human.</p>
+                        <button id="start-quiz" class="btn">Start Quiz</button>
+                    </div>
+
+                    <div id="quiz-question" class="quiz-panel">
+                        <div class="question-counter">Question <span id="current-question">1</span>/<span id="total-questions">10</span></div>
+                        <div class="question-content">
+                            <h3 id="question-title">Is this poem written by AI or Human?</h3>
+                            <div id="question-media" class="question-media">
+                                <!-- Content will be inserted by JavaScript -->
+                            </div>
+                        </div>
+                        <div class="answer-buttons">
+                            <button id="answer-ai" class="btn answer-btn" data-answer="ai">AI <i class="fas fa-robot"></i></button>
+                            <button id="answer-human" class="btn answer-btn" data-answer="human">Human <i class="fas fa-user"></i></button>
+                        </div>
+                    </div>
+
+                    <div id="quiz-feedback" class="quiz-panel">
+                        <div id="feedback-result" class="feedback-result">
+                            <!-- Will be filled by JavaScript -->
+                        </div>
+                        <div id="feedback-explanation" class="feedback-explanation">
+                            <!-- Will be filled by JavaScript -->
+                        </div>
+                        <button id="next-question" class="btn">Next Question</button>
+                    </div>
+
+                    <div id="quiz-results" class="quiz-panel">
+                        <h3>Your Results</h3>
+                        <div class="results-summary">
+                            <p>You scored <span id="correct-answers">0</span> out of <span id="total-questions-result">10</span> correct!</p>
+                            <div id="result-message"></div>
+                        </div>
+                        <button id="restart-quiz" class="btn">Play Again</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="resources">
+            <div class="container">
+                <h2>Learn More</h2>
+                <p class="section-intro">Want to dive deeper into AI and human intelligence? Check out these resources:</p>
+
+                <div class="resources-grid">
+                    <div class="resource-item">
+                        <i class="fas fa-book"></i>
+                        <h3>Books</h3>
+                        <ul>
+                            <li>"Human Compatible" by Stuart Russell</li>
+                            <li>"AI Superpowers" by Kai-Fu Lee</li>
+                            <li>"The Alignment Problem" by Brian Christian</li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Online Courses</h3>
+                        <ul>
+                            <li>Elements of AI (Helsinki University)</li>
+                            <li>AI For Everyone (Coursera)</li>
+                            <li>Introduction to Machine Learning (Stanford)</li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-item">
+                        <i class="fas fa-video"></i>
+                        <h3>Videos & Documentaries</h3>
+                        <ul>
+                            <li>"Coded Bias" (Netflix)</li>
+                            <li>"AlphaGo" (Documentary)</li>
+                            <li>Two Minute Papers (YouTube)</li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-item">
+                        <i class="fas fa-newspaper"></i>
+                        <h3>Newsletters & Blogs</h3>
+                        <ul>
+                            <li>Import AI by Jack Clark</li>
+                            <li>The Gradient</li>
+                            <li>AI Alignment Newsletter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Created for the CS Girlies Hackathon 2025 | Theme: "AI vs H.I."</p>
+            <p class="copyright">&copy; 2025 AI vs Human Project</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
